@@ -1,0 +1,116 @@
+// // 1) Create your own resume data in JSON format:
+// let myresume={
+//     basics: {
+//         "name": "YOKESH",
+//         "email": "yokeyokesh881@gmail.com",
+//         "phone": 9790843561,
+//         "Gender":"Male",
+//         "degree": "B.SC Computer Science",
+//         "loction": {
+//             "address": "N0.10 bangaru nagar",
+//             "code": 600117,
+//             "city": "chennai",
+//             "state": "tamilnadu",
+//             "country": "india",
+//         },
+//         "profiles":[
+//             {
+//                 "github": "https://github.com/yokesh88",
+//             }
+//         ]
+//     },
+//     "work":[
+//         {
+//             "company": "Apar innosys",
+//             "designation": "service desk engineer",
+//             "start date": 2022-05-02,
+//             "end date": 2023-10-28,
+//             "summary": "i am the service desk engineer handling various task and gaining lots of experience",
+//         },
+//     ],
+//     "eduation":[
+//         {
+//             "institution": "Guru Nanak College",
+//             "Department": "B.SC Computer Science",
+//             "start period": 2017,
+//             "end period": 2020,
+//         },
+//     ],
+//     "skills": [
+//         {
+//             "name": "Html,basic of Javascript",
+//             "level": "beginer",
+//         },
+//     ],
+//     "languages": [
+//         {
+//             "languages": "Tamil,English",
+//         },
+//     ],
+//     "interests": [
+//         {
+//             "name": "playing cricket,football",
+//         }
+//     ]
+// }
+// console.log(myresume);
+
+// 2) For the above JSON,iterate over all for loops (for,for in, for of, for each)
+
+// let myresume=[{
+//     "name": "YOKESH",
+//     "email": "yokeyokesh881@gmail.com",
+//     "phone": 9790843561,
+//     "Gender":"Male",
+//     "degree": "B.SC Computer Science",
+//       },
+//       {
+//       "institution": "Guru Nanak College",
+//       "department": "B.SC Computer Science",
+//       "studyType": "Full-Time",
+//       "batch_start_year": 2017,
+//       "batch_end_year": 2020,
+//     },
+//     {
+//       "programming_languages": "Html,basic of Javascript", 
+//       "languages": "English, Tamil",
+//     }
+//   ];
+
+//For Loop:
+// for (let i = 0; i<myresume.length; i++)
+//     {
+//         let data = myresume[i];
+//     console.log(data);
+//     }
+
+//For in:
+// for (let key in myresume){
+//     console.log(myresume[key]);
+// }
+
+//For of:
+// let myresume={
+//     "name": "YOKESH",
+//     "email": "yokeyokesh881@gmail.com",
+//     "phone": 9790843561,
+//     "Gender":"Male",
+//     "degree": "B.SC Computer Science",
+//       "institution": "Guru Nanak College",
+//       "department": "B.SC Computer Science",
+//       "studyType": "Full-Time",
+//       "batch_start_year": 2017,
+//       "batch_end_year": 2020,
+//       "programming_languages": "Html,basic of Javascript", 
+//       "languages": "English, Tamil",
+//     }
+//     let data = Object.entries(myresume)
+
+//For of:
+// for(let [key,value] of data){
+//     console.log(value);
+// }
+
+//For Each:
+// data.forEach(([key,val])=> console.log(key));
+
